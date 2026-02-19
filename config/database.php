@@ -6,7 +6,7 @@
  * If the site runs in a subfolder (e.g. /myproject/), set BASE_PATH to that path:
  *   define('BASE_PATH', '/myproject');
  */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'postgresql://neondb_owner:npg_dvF7oaG6HRlf@ep-old-tooth-a12nfy8l-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_NAME', 'youtubedata');
